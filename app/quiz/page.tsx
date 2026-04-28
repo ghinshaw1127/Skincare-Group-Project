@@ -15,7 +15,7 @@ export default function Quiz() {
     <main className="min-h-screen bg-pink-50 flex flex-col items-center justify-center px-6">
       <h1 className="text-3xl font-bold text-pink-700 mb-8">What is your skin type?</h1>
       <div className="flex flex-col gap-4 w-full max-w-sm">
-        {["oily", "dry", "combination", "sensitive"].map((type) => (
+        {["oily", "dry", "combination", "sensitive", "acne"].map((type) => (
           <button
             key={type}
             onClick={() => setSkinType(type)}
